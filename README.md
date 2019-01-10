@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+This handy bash script will email the ip of the raspberry pi to your email.
 
 ## Getting Started
 
@@ -33,5 +33,5 @@ until finished
 * [Mailutils](https://mailutils.org/) - The Mailing Service Used
 
 ## Authors
-* **Elijah Mt. Castle *Initial work* - [Elijah1111](https://github.com/Elijah1111)
+* **Elijah Mt. Castle** *Initial work* - [Elijah1111](https://github.com/Elijah1111)
 * **Ben Wagley** - *Idea and Assistance* - [Website](http://bwagley.com/)
