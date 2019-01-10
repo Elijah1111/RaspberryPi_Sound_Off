@@ -1,0 +1,15 @@
+#!/bin/bash
+PATH=$PATH:/usr/sbin/ssmtp:/usr/bin/mail
+if [ ! -f /tmp/connectionip ]
+	echo "connectionip doesn't exist, starting process"
+	then
+	ping -c 1 google.com
+	RETURN=$?
+	if [ $RETURN -eq 0 ]
+	then
+		echo $(hostname -I)
+		ifconfig wlan0 | grep "inet " | cut -f 9- -d" " | cut -f -2 -d" " | mail -s "Your IP is..." youremailhere@gmail.com && echo "mail sent"
+		touch /tmp/connectionip
+	fi
+fi
+
