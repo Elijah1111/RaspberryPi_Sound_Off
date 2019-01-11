@@ -11,7 +11,8 @@ Create a gmail account to use to send emails.
 ## Installing
 Download the bash script
 ### Configuring
-add 
+edit /etc/ssmtp/ssmtp.conf to contain
+
 ```
 root=username@gmail.com 
 mailhub=smtp.gmail.com:587 
@@ -22,9 +23,15 @@ AuthUser=username
 AuthPass=password 
 FromLineOverride=YES
 ```
-/etc/ssmtp/ssmtp.conf
 
-
+open crontab with
+```
+crontab -e
+```
+and add the line
+```
+@reboot sleep 30 && /DIR_TO_SENDIP
+```
 ## Authors
 * **Elijah Mt. Castle** *Initial work* - [Elijah1111](https://github.com/Elijah1111)
 * **Ben Wagley** - *Idea and Assistance* - [Website](http://bwagley.com/)
