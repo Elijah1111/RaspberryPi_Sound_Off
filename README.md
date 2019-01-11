@@ -34,5 +34,5 @@ and then add the line
 ```
 
 ## Authors
-* **Elijah Mt. Castle** *Initial work* - [Elijah1111](https://github.com/Elijah1111)
+* **Elijah Mt. Castle** *Initial Script Work* - [Elijah1111](https://github.com/Elijah1111)
 * **Ben Wagley** - *Idea and Assistance* - [Website](http://bwagley.com/)
