@@ -28,10 +28,11 @@ open crontab with
 ```
 crontab -e
 ```
-and add the line
+and then add the line
 ```
 @reboot sleep 30 && /DIR_TO_SENDIP
 ```
+
 ## Authors
 * **Elijah Mt. Castle** *Initial work* - [Elijah1111](https://github.com/Elijah1111)
 * **Ben Wagley** - *Idea and Assistance* - [Website](http://bwagley.com/)
